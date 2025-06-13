@@ -1,0 +1,832 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "OdjLRZpKw5Sn5PZgOxt_B",
+      "type": "text",
+      "x": -98.61792601084142,
+      "y": 890.7353221129824,
+      "width": 407,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 281831567,
+      "version": 209,
+      "versionNonce": 1975814401,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694667158,
+      "link": null,
+      "locked": false,
+      "text": "Distributed Systems:\n    Agenda\n    - Approaching distributed systems\n    - Designing load balancer\n    - Remote and Distributed Locks\n    - Synchronizing Consumers\n\n    \nMultiple Components\nMultiple Machines\n    ",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Distributed Systems:\n    Agenda\n    - Approaching distributed systems\n    - Designing load balancer\n    - Remote and Distributed Locks\n    - Synchronizing Consumers\n\n    \nMultiple Components\nMultiple Machines\n    ",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "q2_lB55JCrh0vcwgOasWx",
+      "type": "freedraw",
+      "x": 159.91332398915858,
+      "y": 1086.5790721129824,
+      "width": 0.7421875,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 2050226607,
+      "version": 6,
+      "versionNonce": 1667876961,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694671881,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.5078125,
+          0
+        ],
+        [
+          -0.7421875,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": null
+    },
+    {
+      "id": "F4Gyz6g5VIKKGyGiP5Pev",
+      "type": "freedraw",
+      "x": 163.46019898915858,
+      "y": 1086.5790721129824,
+      "width": 44.4609375,
+      "height": 102.12890625,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1098320975,
+      "version": 119,
+      "versionNonce": 968127681,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694674365,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.234375,
+          0
+        ],
+        [
+          -0.7578125,
+          0
+        ],
+        [
+          -1.01953125,
+          0
+        ],
+        [
+          -1.265625,
+          0
+        ],
+        [
+          -1.5078125,
+          0
+        ],
+        [
+          -2.015625,
+          0
+        ],
+        [
+          -2.5390625,
+          0
+        ],
+        [
+          -3.375,
+          0
+        ],
+        [
+          -4.2109375,
+          0
+        ],
+        [
+          -5.046875,
+          0
+        ],
+        [
+          -6.5625,
+          0
+        ],
+        [
+          -8.078125,
+          -0.31640625
+        ],
+        [
+          -9.9609375,
+          -1.26171875
+        ],
+        [
+          -11.84375,
+          -2.20703125
+        ],
+        [
+          -13.359375,
+          -3.41015625
+        ],
+        [
+          -14.82421875,
+          -5.5
+        ],
+        [
+          -15.45703125,
+          -7.3828125
+        ],
+        [
+          -15.45703125,
+          -9.69140625
+        ],
+        [
+          -15.45703125,
+          -11.57421875
+        ],
+        [
+          -15.45703125,
+          -13.8828125
+        ],
+        [
+          -15.45703125,
+          -15.3984375
+        ],
+        [
+          -14.88671875,
+          -16.546875
+        ],
+        [
+          -13.74609375,
+          -17.41015625
+        ],
+        [
+          -11.87109375,
+          -17.7265625
+        ],
+        [
+          -9.99609375,
+          -17.7265625
+        ],
+        [
+          -7.6953125,
+          -17.7265625
+        ],
+        [
+          -3.953125,
+          -17.7265625
+        ],
+        [
+          1.09765625,
+          -16.62109375
+        ],
+        [
+          3.82421875,
+          -15.26171875
+        ],
+        [
+          6.2109375,
+          -13.55859375
+        ],
+        [
+          7.4609375,
+          -11.68359375
+        ],
+        [
+          8.48046875,
+          -8.95703125
+        ],
+        [
+          8.79296875,
+          -6.65625
+        ],
+        [
+          8.79296875,
+          -4.35546875
+        ],
+        [
+          8.79296875,
+          -2.0546875
+        ],
+        [
+          8.79296875,
+          -0.1796875
+        ],
+        [
+          8.79296875,
+          1.6953125
+        ],
+        [
+          8.79296875,
+          3.99609375
+        ],
+        [
+          7.1640625,
+          7.234375
+        ],
+        [
+          5.42578125,
+          9.6484375
+        ],
+        [
+          3.6875,
+          12.0625
+        ],
+        [
+          1.46875,
+          14.984375
+        ],
+        [
+          -1.6015625,
+          18.4453125
+        ],
+        [
+          -4.671875,
+          21.90625
+        ],
+        [
+          -8.921875,
+          26.1484375
+        ],
+        [
+          -13.171875,
+          30.81640625
+        ],
+        [
+          -16.40625,
+          34.4140625
+        ],
+        [
+          -19.10546875,
+          38.2421875
+        ],
+        [
+          -20.47265625,
+          40.96875
+        ],
+        [
+          -21.078125,
+          42.4765625
+        ],
+        [
+          -21.3671875,
+          43.5625
+        ],
+        [
+          -21.3671875,
+          44.078125
+        ],
+        [
+          -21.3671875,
+          44.3203125
+        ],
+        [
+          -19.4921875,
+          44.6328125
+        ],
+        [
+          -17.19140625,
+          44.9453125
+        ],
+        [
+          -14.46484375,
+          44.9453125
+        ],
+        [
+          -10.2421875,
+          44.9453125
+        ],
+        [
+          -6.5546875,
+          43.8359375
+        ],
+        [
+          -4.0546875,
+          41.328125
+        ],
+        [
+          -1.5546875,
+          39.19140625
+        ],
+        [
+          -0.25,
+          36.8828125
+        ],
+        [
+          0.34765625,
+          35.3671875
+        ],
+        [
+          0.34765625,
+          32.54296875
+        ],
+        [
+          0.34765625,
+          31.39453125
+        ],
+        [
+          -0.515625,
+          30.53125
+        ],
+        [
+          -2.3984375,
+          30.21484375
+        ],
+        [
+          -4.28125,
+          30.21484375
+        ],
+        [
+          -5.796875,
+          30.78515625
+        ],
+        [
+          -6.76953125,
+          33.0859375
+        ],
+        [
+          -7.45703125,
+          35.8125
+        ],
+        [
+          -7.80078125,
+          38.11328125
+        ],
+        [
+          -7.80078125,
+          40.4140625
+        ],
+        [
+          -7.80078125,
+          41.5546875
+        ],
+        [
+          -7.80078125,
+          42.953125
+        ],
+        [
+          -6.77734375,
+          44.546875
+        ],
+        [
+          -3.9375,
+          46.703125
+        ],
+        [
+          -1.015625,
+          48.9140625
+        ],
+        [
+          1.9375,
+          51.8671875
+        ],
+        [
+          4.890625,
+          54.8203125
+        ],
+        [
+          7.47265625,
+          57.7734375
+        ],
+        [
+          9.203125,
+          60.1875
+        ],
+        [
+          9.828125,
+          62.0625
+        ],
+        [
+          10.11328125,
+          63.5703125
+        ],
+        [
+          10.11328125,
+          64.7109375
+        ],
+        [
+          9.5390625,
+          65.8515625
+        ],
+        [
+          4.1953125,
+          69.25
+        ],
+        [
+          -2.203125,
+          73.7734375
+        ],
+        [
+          -10.12109375,
+          79.2265625
+        ],
+        [
+          -16.296875,
+          81.88671875
+        ],
+        [
+          -22.25,
+          84.0078125
+        ],
+        [
+          -26,
+          84.40234375
+        ],
+        [
+          -28.7890625,
+          84.40234375
+        ],
+        [
+          -31.18359375,
+          82.69140625
+        ],
+        [
+          -32.9765625,
+          79.84375
+        ],
+        [
+          -34.00390625,
+          77.109375
+        ],
+        [
+          -34.34765625,
+          74.375
+        ],
+        [
+          -34.34765625,
+          71.859375
+        ],
+        [
+          -34.34765625,
+          71.0234375
+        ],
+        [
+          -34.10546875,
+          71.0234375
+        ],
+        [
+          -33.58984375,
+          71.0234375
+        ],
+        [
+          -33.07421875,
+          71.0234375
+        ],
+        [
+          -31.93359375,
+          71.30859375
+        ],
+        [
+          -31.10546875,
+          71.8515625
+        ],
+        [
+          -30.58984375,
+          72.3671875
+        ],
+        [
+          -30.07421875,
+          72.8828125
+        ],
+        [
+          -29.55859375,
+          73.3984375
+        ],
+        [
+          -29.04296875,
+          73.65625
+        ],
+        [
+          -28.78515625,
+          73.9140625
+        ],
+        [
+          -28.28515625,
+          74.671875
+        ],
+        [
+          -28.04296875,
+          74.9140625
+        ],
+        [
+          -28.04296875,
+          75.171875
+        ],
+        [
+          -28.04296875,
+          75.4140625
+        ],
+        [
+          -28.04296875,
+          75.65625
+        ],
+        [
+          -28.04296875,
+          75.89453125
+        ],
+        [
+          -28.04296875,
+          76.1328125
+        ],
+        [
+          -28.8515625,
+          76.1328125
+        ],
+        [
+          -28.8515625,
+          76.1328125
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": null
+    },
+    {
+      "id": "h9FQouErzbn5oJylEzAxR",
+      "type": "text",
+      "x": 217.31566773915858,
+      "y": 1079.1376658629824,
+      "width": 253,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "rhUNkMKwBsDMEShHPeKvz"
+      ],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 1898863649,
+      "version": 135,
+      "versionNonce": 1830540847,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694715911,
+      "link": null,
+      "locked": false,
+      "text": "Single Coherent System\n\nSolves a bigger problem",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Single Coherent System\n\nSolves a bigger problem",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "HcjQsh5iwn--XcRNFXF7X",
+      "type": "arrow",
+      "x": 346.2531677391586,
+      "y": 1106.0790721129824,
+      "width": 1.03125,
+      "height": 27.1640625,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "rhUNkMKwBsDMEShHPeKvz"
+      ],
+      "frameId": null,
+      "index": "a5",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 721873249,
+      "version": 150,
+      "versionNonce": 1186936911,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694715911,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -1.03125,
+          27.1640625
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "_ozFPlapxJyG9mM-ZrxIZ",
+      "type": "text",
+      "x": -89.36401976084142,
+      "y": 1239.7353221129824,
+      "width": 616,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 489792481,
+      "version": 118,
+      "versionNonce": 1060907329,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694750861,
+      "link": null,
+      "locked": false,
+      "text": "The best and the worst thing about distributed system is\n\nANYTHING THAT COULD GO WRONG WOULD GO WRONG\n",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "The best and the worst thing about distributed system is\n\nANYTHING THAT COULD GO WRONG WOULD GO WRONG\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "jSD5fgtDRGg9FzuG1pawO",
+      "type": "rectangle",
+      "x": -103.74292601084142,
+      "y": 1275.0634471129824,
+      "width": 516.68359375,
+      "height": 48.76171875,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 1112474991,
+      "version": 105,
+      "versionNonce": 671456897,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749694755277,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "MvLLKGK9Abu3-3IPKL39t",
+      "type": "text",
+      "x": -114.61401976084142,
+      "y": 1371.7353221129824,
+      "width": 1067,
+      "height": 525,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": null,
+      "seed": 1101876815,
+      "version": 276,
+      "versionNonce": 1524640143,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749695033073,
+      "link": null,
+      "locked": false,
+      "text": "Key to design good distributed system is:\n START WITH DAY 0 arch and scale each component.\n\nWhy Distributed Systems?\n- Scalability\n    Especially horizontal scalability: handle more traffic by adding machines, not upgrading one.\n    Useful for systems with massive or growing workloads.\n\n- Fault Tolerance & High Availability\n    System keeps working even if some nodes fail.\n    Critical for real-time, mission-critical applications.\n\n- Performance / Latency Reduction\n    Data/services placed closer to users via geo-distributed nodes.\n    Example: CDN caches content closer to end users.\n\n- Cost Efficiency\n    Scale out using commodity hardware instead of expensive high-end servers.\n  \n- Flexibility in Architecture\n    Enables microservices, better modularity, and independent deployments.",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Key to design good distributed system is:\n START WITH DAY 0 arch and scale each component.\n\nWhy Distributed Systems?\n- Scalability\n    Especially horizontal scalability: handle more traffic by adding machines, not upgrading one.\n    Useful for systems with massive or growing workloads.\n\n- Fault Tolerance & High Availability\n    System keeps working even if some nodes fail.\n    Critical for real-time, mission-critical applications.\n\n- Performance / Latency Reduction\n    Data/services placed closer to users via geo-distributed nodes.\n    Example: CDN caches content closer to end users.\n\n- Cost Efficiency\n    Scale out using commodity hardware instead of expensive high-end servers.\n  \n- Flexibility in Architecture\n    Enables microservices, better modularity, and independent deployments.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "ZFcztPYdzoKK0Hl8K58hD",
+      "type": "text",
+      "x": -115.11792601084142,
+      "y": 1984.4736033629824,
+      "width": 814,
+      "height": 1850,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 453866063,
+      "version": 307,
+      "versionNonce": 243705101,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749782881524,
+      "link": null,
+      "locked": false,
+      "text": "LOAD BALANCER\n-------------\nA Load Balancer distributes incoming traffic across multiple servers \nto ensure no single server is overwhelmed.\n\nTypes:\n- Layer 4: Operates at transport level (IP + TCP/UDP)\n- Layer 7: Operates at application level (HTTP headers, URLs, etc.)\n\nAdvantages:\n- High Availability: If one server fails, traffic is rerouted\n- Scalability: Easily add more servers as load increases\n- Improved Performance: Distributes traffic evenly\n- Fault Tolerance: Health checks skip unhealthy nodes\n- Efficient Resource Utilization: Avoids overloading any one server\n\nLoad Balancing Algorithms\n-------------------------\n\n1. Round Robin:\n   - Requests are sent to servers in circular order.\n   - Simple, but does not account for server load.\n   - How it works:\n     > Maintains a pointer to the last used server.\n     > For each request, moves to next server in the list (circular).\n   - Example:\n     Req 1 -> Server A\n     Req 2 -> Server B\n     Req 3 -> Server C\n     Req 4 -> Server A ...\n\n2. Weighted Round Robin:\n   - Each server has a weight (capacity indicator).\n   - Higher weight = more requests.\n   - How it works:\n     > Builds a list based on weights (e.g., A,A,A,B,C,C).\n     > Iterates through that list in a loop.\n     > Can also use counters and mod logic.\n   - Example:\n     Weights: A = 3, B = 1, C = 2\n     Order: A, A, A, B, C, C, A, A, A, B, C, C ...\n\n3. Least Connections:\n   - New request goes to the server with the fewest active connections.\n   - Best for long-lived sessions or uneven request loads.\n   - How it works:\n     > For each request, check current active connections for all servers.\n     > Select the server with the lowest number.\n     > Requires real-time connection tracking.\n   - Example:\n     Server A: 5 conns\n     Server B: 2 conns\n     Server C: 3 conns\n     -> Next request goes to Server B\n\n\nDesign: Load Balancer\nRequirements:\n    - Balance the load\n    - Tunable Algorithm\n    - Scaling beyond one machine\n\nTerminology:\n    - LB server\n    - Backend server\n\nBrainstorm:\n    - LB configurations\n    - Monitoring\n    - Availability\n    - Extensibility\n    \n\n",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "LOAD BALANCER\n-------------\nA Load Balancer distributes incoming traffic across multiple servers \nto ensure no single server is overwhelmed.\n\nTypes:\n- Layer 4: Operates at transport level (IP + TCP/UDP)\n- Layer 7: Operates at application level (HTTP headers, URLs, etc.)\n\nAdvantages:\n- High Availability: If one server fails, traffic is rerouted\n- Scalability: Easily add more servers as load increases\n- Improved Performance: Distributes traffic evenly\n- Fault Tolerance: Health checks skip unhealthy nodes\n- Efficient Resource Utilization: Avoids overloading any one server\n\nLoad Balancing Algorithms\n-------------------------\n\n1. Round Robin:\n   - Requests are sent to servers in circular order.\n   - Simple, but does not account for server load.\n   - How it works:\n     > Maintains a pointer to the last used server.\n     > For each request, moves to next server in the list (circular).\n   - Example:\n     Req 1 -> Server A\n     Req 2 -> Server B\n     Req 3 -> Server C\n     Req 4 -> Server A ...\n\n2. Weighted Round Robin:\n   - Each server has a weight (capacity indicator).\n   - Higher weight = more requests.\n   - How it works:\n     > Builds a list based on weights (e.g., A,A,A,B,C,C).\n     > Iterates through that list in a loop.\n     > Can also use counters and mod logic.\n   - Example:\n     Weights: A = 3, B = 1, C = 2\n     Order: A, A, A, B, C, C, A, A, A, B, C, C ...\n\n3. Least Connections:\n   - New request goes to the server with the fewest active connections.\n   - Best for long-lived sessions or uneven request loads.\n   - How it works:\n     > For each request, check current active connections for all servers.\n     > Select the server with the lowest number.\n     > Requires real-time connection tracking.\n   - Example:\n     Server A: 5 conns\n     Server B: 2 conns\n     Server C: 3 conns\n     -> Next request goes to Server B\n\n\nDesign: Load Balancer\nRequirements:\n    - Balance the load\n    - Tunable Algorithm\n    - Scaling beyond one machine\n\nTerminology:\n    - LB server\n    - Backend server\n\nBrainstorm:\n    - LB configurations\n    - Monitoring\n    - Availability\n    - Extensibility\n    \n\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#000000",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
