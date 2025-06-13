@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "tg2FFS6I_2G0uC6rlF0HX",
+      "type": "text",
+      "x": -210.9644531104508,
+      "y": -1981.1845997620178,
+      "width": 1005.9510498046875,
+      "height": 1380,
+      "angle": 0,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1y",
+      "roundness": null,
+      "seed": 473129048,
+      "version": 3164,
+      "versionNonce": 879819263,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1749691824717,
+      "link": null,
+      "locked": false,
+      "text": "Databases\n\n    Agenda:\n        - Relational Databases & Pessimistic Locking\n        - Designing: Airline Checking System\n        - Designing: KV store on relational DB\n\n    Relational DB:\n        - Data is stored in represented in rows and columns\n        - key Highlight is relations\n        - Known for \n            - Atomicity: All parts of a transaction succeed or none do.\n            - Consistency: Transactions bring the database from one valid state to another.\n            - Isolation: Concurrent transactions don't interfere with each other.\n            - Durability: Once committed, changes persist even after crashes.\n    \n        Database Indexes:\n            - Indexes make read faster and writes slower\n        \n        Database Locking: [Pessimistic Locking]\n            - You acquire the lock before proceeding\n            - Types: Shared Lock and Exclusive Lock\n            - Lock: To protect the data against concurrent updates\n            - Risk: Transactional Deadlock (Deadlock algorithms in all kinds of DBs ensures deadlock doesnt happen)\n\n        Shared Lock:\n            ... FOR SHARE; \n            ex: select * from user where uid in (1, 2, 3) for share;\n            lets say txn1 uses the above statement and then the next any number of txns can be used to read it but not modify\n                until txn1 is either committed or aborted. Txn1 itselft can modify\n\n            when: If i want higher read throughput \n            trade off: No tradeoffs but if there are more writes than reads in the same context used by many users \n                                then it'll be slower.\n            How to: using For share at the end of the query.\n            To test it on console:\n                begin;\n                select * from company for share; \n\n                and open another tab and try to update any row on company table; // It will not work unless first txn is ended\n\n        Exclusive lock;\n            ... FOR UPDATE;\n            ex: select * from user where uid in (1,2,3) for update;\n            this is similar to share but i wont even be able to read until 1st txn is completed. \n            Severly impacts throughputs. \n            When:  in the shipment detail table if the user1 wants to edit doc-101 and user2 wants to edit doc-101 at the same time\n                            we would need exclusive lock. We shouldnt let any user read the info until its updated. \n            correctness of the data > slowness always (maybe not; think later)\n\n        Skip Locked:\n            ... SKIP LOCKED;\n               use it to skip previous locks - DOESNT REMOVE LOCKS JUST SKIPS IT AND DOESNT DO ANYTHING\n\n        No Wait:\n            ... NOWAIT(can be used only with FOR SHARE or FOR UPDATE i.e., with locks);\n                if a txn1 has used the lock and in another txn youre using NOWAIT then this new txn with nowait wont even run\n                because its locked by txn1 so no point in waiting. \n\n\n    FIXED INVENTORY + CONTENTION = LOCKING\n    When you have limited resources (fixed inventory) and multiple processes trying to access or modify them at the same time (contention), \n    the database uses row-level locking to maintain consistency. This prevents issues like overbooking or double allocation by forcing \n    transactions to wait, skip, or fail.\n\n    Airline Check-in System\n    Distributed KV stores\n                \n            ",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Databases\n\n    Agenda:\n        - Relational Databases & Pessimistic Locking\n        - Designing: Airline Checking System\n        - Designing: KV store on relational DB\n\n    Relational DB:\n        - Data is stored in represented in rows and columns\n        - key Highlight is relations\n        - Known for \n            - Atomicity: All parts of a transaction succeed or none do.\n            - Consistency: Transactions bring the database from one valid state to another.\n            - Isolation: Concurrent transactions don't interfere with each other.\n            - Durability: Once committed, changes persist even after crashes.\n    \n        Database Indexes:\n            - Indexes make read faster and writes slower\n        \n        Database Locking: [Pessimistic Locking]\n            - You acquire the lock before proceeding\n            - Types: Shared Lock and Exclusive Lock\n            - Lock: To protect the data against concurrent updates\n            - Risk: Transactional Deadlock (Deadlock algorithms in all kinds of DBs ensures deadlock doesnt happen)\n\n        Shared Lock:\n            ... FOR SHARE; \n            ex: select * from user where uid in (1, 2, 3) for share;\n            lets say txn1 uses the above statement and then the next any number of txns can be used to read it but not modify\n                until txn1 is either committed or aborted. Txn1 itselft can modify\n\n            when: If i want higher read throughput \n            trade off: No tradeoffs but if there are more writes than reads in the same context used by many users \n                                then it'll be slower.\n            How to: using For share at the end of the query.\n            To test it on console:\n                begin;\n                select * from company for share; \n\n                and open another tab and try to update any row on company table; // It will not work unless first txn is ended\n\n        Exclusive lock;\n            ... FOR UPDATE;\n            ex: select * from user where uid in (1,2,3) for update;\n            this is similar to share but i wont even be able to read until 1st txn is completed. \n            Severly impacts throughputs. \n            When:  in the shipment detail table if the user1 wants to edit doc-101 and user2 wants to edit doc-101 at the same time\n                            we would need exclusive lock. We shouldnt let any user read the info until its updated. \n            correctness of the data > slowness always (maybe not; think later)\n\n        Skip Locked:\n            ... SKIP LOCKED;\n               use it to skip previous locks - DOESNT REMOVE LOCKS JUST SKIPS IT AND DOESNT DO ANYTHING\n\n        No Wait:\n            ... NOWAIT(can be used only with FOR SHARE or FOR UPDATE i.e., with locks);\n                if a txn1 has used the lock and in another txn youre using NOWAIT then this new txn with nowait wont even run\n                because its locked by txn1 so no point in waiting. \n\n\n    FIXED INVENTORY + CONTENTION = LOCKING\n    When you have limited resources (fixed inventory) and multiple processes trying to access or modify them at the same time (contention), \n    the database uses row-level locking to maintain consistency. This prevents issues like overbooking or double allocation by forcing \n    transactions to wait, skip, or fail.\n\n    Airline Check-in System\n    Distributed KV stores\n                \n            ",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#000000",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
